@@ -3,8 +3,8 @@ version: '3.8'
 services:
   vegitable_order_app:
     build: .
-    image: vegitable-app:v1.0.0
-    container_name: vegitable
+    image: svsps/vegetable-order-app:v1
+    container_name: vegetable
     ports:
       - "3000:3000"
     environment:

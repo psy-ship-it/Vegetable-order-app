@@ -15,7 +15,7 @@ spec:
         app: vegetable
     spec:
       containers:
-      - name: vegetable-app
+      - name: vegetable
         image: svsps/vegetable-order-app:v1
         ports:
         - containerPort: 3000
